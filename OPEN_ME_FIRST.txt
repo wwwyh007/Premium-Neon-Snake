@@ -1,0 +1,24 @@
+﻿PremiumSnake - Open and Run Guide
+
+Recommended Visual Studio workflow:
+1. Open Visual Studio.
+2. Choose File -> Open -> Folder.
+3. Select this folder:
+   D:\Coding\Projects\PremiumSnake
+4. Press Ctrl + Alt + L to open Solution Explorer if the file tree is hidden.
+5. Open premium_snake.py.
+6. In Python Environments, choose the project virtual environment:
+   D:\Coding\Projects\PremiumSnake\.venv\Scripts\python.exe
+7. Run it from Visual Studio, or use RUN_GAME.bat.
+
+If opening PremiumSnake.sln shows a project/solution upgrade dialog, click Cancel and use File -> Open -> Folder instead. The game file is still complete; the dialog only concerns Visual Studio project metadata.
+
+Direct run:
+Double-click RUN_GAME.bat.
+
+Why Visual Studio may show C:\Program Files\Python313:
+That path is the old global Python installation, not the project location. This project now has its own D-drive virtual environment at:
+D:\Coding\Projects\PremiumSnake\.venv
+
+The D-drive base Python for this project is:
+D:\Coding\Python\Python313\python.exe
