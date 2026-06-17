@@ -30,11 +30,16 @@
 
 ![Classic Gameplay](docs/images/premium-neon-snake-classic.png)
 
+### 🧱 Obstacle Mode
+
+![Obstacle Gameplay](docs/images/premium-neon-snake-obstacle.png)
+
 ## 📦 发布素材
 
 - `docs/images/premium-neon-snake-menu.png`：README 顶部封面与主菜单预览。
 - `docs/images/premium-neon-snake-classic.png`：Classic Mode 游戏画面预览。
-- 后续可以继续加入 `docs/images/` 或 `docs/demo/`，用于展示 Game Over、Obstacle Mode、演示视频和 GitHub Release 素材。
+- `docs/images/premium-neon-snake-obstacle.png`：Obstacle Mode 障碍玩法预览。
+- 后续可以继续加入 `docs/images/` 或 `docs/demo/`，用于展示 Game Over、演示视频和 GitHub Release 素材。
 
 ## 🛠️ 技术栈
 
@@ -95,7 +100,8 @@ PremiumSnake/
 ├── docs/
 │   └── images/
 │       ├── premium-neon-snake-menu.png
-│       └── premium-neon-snake-classic.png
+│       ├── premium-neon-snake-classic.png
+│       └── premium-neon-snake-obstacle.png
 ├── OPEN_ME_FIRST.txt         # 本地打开和运行说明
 ├── RUN_GAME.bat              # Windows 双击运行脚本
 └── .gitignore                # 忽略本地环境、缓存、排行榜等文件
