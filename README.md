@@ -49,6 +49,18 @@
 - **数据存储**：本地 JSON 文件
 - **开发环境**：Visual Studio / VS Code / PowerShell
 
+## 🌐 Web Alpha
+
+仓库中的 `web/` 是浏览器原生版本，使用 React、TypeScript 和 HTML Canvas 构建。目前包含 Classic / Obstacle 双模式、五套可选蛇皮肤、键盘与触屏控制、倒计时、护盾奖励、D1 全局排行榜和个人历史最高记录。
+
+```powershell
+cd web
+npm install
+npm run dev
+```
+
+Web Alpha 与原来的 Pygame 桌面版并存，当前采用匿名玩家别名保存成绩，账号系统留到后续版本。
+
 ## 🚀 快速运行
 
 ```powershell
